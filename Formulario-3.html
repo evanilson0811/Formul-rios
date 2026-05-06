@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalhes Pessoais</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { display: flex; gap: 20px; padding: 10px; }
+        fieldset { border: 1px solid #000; }
+        legend { padding: 0 5px; }
+        .form-row { margin-bottom: 10px; }
+        label { display: inline-block; width: 100px; }
+    </style>
+</head>
+<body>
+
+    <form action="#" method="post">
+        <!-- Tradução: Personal Details -> Detalhes Pessoais -->
+        <fieldset>
+            <legend>Detalhes Pessoais</legend>
+            
+            <div class="container">
+                <!-- Tradução: Address Details -> Detalhes do Endereço -->
+                <fieldset>
+                    <legend>Detalhes do Endereço</legend>
+                    <div class="form-row">
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" id="cidade" name="cidade">
+                    </div>
+                    <div class="form-row">
+                        <label for="cep">CEP:</label>
+                        <input type="text" id="cep" name="cep" size="10">
+                    </div>
+                </fieldset>
+
+                <!-- Tradução: Telephone Details -> Detalhes do Telefone -->
+                <fieldset>
+                    <legend>Detalhes do Telefone</legend>
+                    <div class="form-row">
+                        <label for="residencial">Residencial:</label>
+                        <input type="tel" id="residencial" name="residencial">
+                    </div>
+                    <div class="form-row">
+                        <label for="celular">Celular:</label>
+                        <input type="tel" id="celular" name="celular">
+                    </div>
+                </fieldset>
+            </div>
+            
+        </fieldset>
+    </form>
+
+</body>
+</html>
